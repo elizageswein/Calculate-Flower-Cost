@@ -1,8 +1,3 @@
-﻿// S2213
-// CIS 199-03
-// Program 3
-// Due 04/01/2022
-
 // displays price and discount information based on user input of flowers and garden type
 
 using System;

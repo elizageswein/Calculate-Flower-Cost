@@ -19,15 +19,15 @@ namespace Program_3
             InitializeComponent();
         }
 
-        string[] gardens = { "Premium", "Standard", "Discount" };
-        double[] baseRates = { 1.10, 1.00, 0.9 };
-        int[] itemNums = { 10001, 10002, 10003, 10004, 10005, 10006, 10007 };
-        double[] flowerCosts = { 7.87, 9.51, 10.73, 9.99, 11.99, 5.00, 4.58 };
-        int[] quantities = { 0, 6, 16, 20 };
-        double[] discounts = { 1.00, .95, .90, .85 };
-
         private void CalcBtn_Click(object sender, EventArgs e)
         {
+            string[] gardens = { "Premium", "Standard", "Discount" }; // garden type
+            double[] baseRates = { 1.10, 1.00, 0.9 }; // rates
+            int[] itemNums = { 10001, 10002, 10003, 10004, 10005, 10006, 10007 }; // item numbers
+            double[] flowerCosts = { 7.87, 9.51, 10.73, 9.99, 11.99, 5.00, 4.58 }; // costs per flower
+            int[] quantities = { 0, 6, 16, 20 }; // valid flwoer quantities to discount
+            double[] discounts = { 1.00, .95, .90, .85 }; // discounts based on quantity
+            
             int itemNum; // variable used with TryParse
             int quant; // variable used with TryParse
 
